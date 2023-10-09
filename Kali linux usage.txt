@@ -1,0 +1,86 @@
+ADB-Toolkit
+
+Prerequisite
+1. Go to settings
+2. Go to About device/tablet
+3. Tap Build Number 7 times
+4. Developer options will occur
+5. Go to Developer options
+6. Search for Usb Debugging & Install via USB
+7. Turn those settings on
+
+Installation
+
+git clone https://github.com/ASHWIN990/ADB-Toolkit.git
+
+cd ADB-Toolkit
+
+sudo chmod +x install.sh
+
+sudo ./install.sh -i
+
+Usage sudo ./ADB-Toolkit.sh or sudo bash ADB-Toolkit.sh
+
+
+
+HACKING TOOL 
+Step : 1 Download hackingtool
+git clone https://github.com/Z4nzu/hackingtool.git
+
+Step : 2 Give Permission to hackingtool
+chmod -R 755 hackingtool  
+
+Step : 3 Move to hackingtool directory
+cd hackingtool
+
+Step : 4 Run hackingtool
+sudo bash install.sh
+
+Step : 5 For installing tools in directory
+sudo hackingtool
+
+
+
+
+
+
+
+CI LOCKS
+
+Requirements
+
+sudo apt update -y
+
+sudo apt install php nodejs npm adb scrcpy wget unzip apktool jq -y
+
+Installation 
+
+git clone https://github.com/tegal1337/CiLocks
+
+cd CiLocks
+
+chmod +x cilocks
+
+sudo bash cilocks 
+
+or sudo ./cilocks
+
+If brute doesn't work then uncomment this code
+# adb shell input keyevent 26
+
+if 5x the wrong password will automatically delay 30 seconds
+
+To use Spycam / Iplogger if the url does not appear
+ Register on ngrok.com
+ 
+ Write the command on the path /CiLocks
+ # ./ngrok authtoken <TOKEN>
+
+Required
+ADB {Android SDK}
+
+USB Cable
+
+Android Emulator {Nethunter/Termux} Root
+
+Or Computer
